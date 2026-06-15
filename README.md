@@ -51,14 +51,23 @@ The following table summarizes the performance, significance, and effects of ind
 | Independent Variable (Log-Transformed) | Unstandardized Coefficient (B) | Standardized Beta (beta) | p-value ({Sig.}) | Status | Economic Interpretation |
 
 | {log_GNI} | +0.525 | 0.544 |  Significant | Strongest positive driver. Higher national income significantly improves the balance. |
+
 | {log_TotalReserve} | +0.412 | 0.477 |  Significant | Strong predictor ({Partial Eta Sq} = 0.169). Reserves boost external stability. |
+
 | {log_totalPopulation} | -0.364 | -0.345 | Significant | Higher population downwardly pressures the balance due to import dependence. |
+
 | {log_PersonalRemittance_Winsor} | -0.119 | -0.110 | Significant | Negatively associated, indicating potential capital outflow nuances. |
+
 | {log_Exports} | -0.064 | -0.069| 0.013 | Significant | Counterintuitive negative link; justified via regional supply chain/trade suppression dynamics. |
+
 | {log_ForeignDirectInvestment} | +0.059 | 0.065 | 0.030 | Significant | Modest positive impact; tracking patterns rise alongside macro performance. |
+
 | {log_OfficialExchangeRate} | -0.035 | -0.055 | 0.010 | Significant | Moderate negative impact; currency depreciation reduces the balance within this model context. |
+
 | {log_Inflation_Winsor} | +0.159 | 0.081 | Significant | Shows a positive shift under regression control, despite a negative baseline correlation. |
+
 | {Log_TotalUnemployement_Winsor} | +0.072 | 0.030 | 0.115 | Not Significant | Weak baseline relationship; does not explicitly impact external balances. |
+
 | {log_GDPgrowth_Winsor} | -0.004 | -0.002 | 0.938 | Not Significant | Statistically redundant when broader national income indicators {GNI}) are accounted . |
 
 
